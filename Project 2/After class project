@@ -1,0 +1,22 @@
+print("Welcome to the holiday activity planner!")
+choice = input("Choose your holiday type:\nEnter 1 for Beach holiday\nEnter 2 for Mountain Holiday\nYour choice: ")
+if choice == "1":
+    print("\nYou chose a Beach holiday!")
+    beach_choice = input("What would you like to do?\nEnter 'swimming' or 'Sandcastle Building':")
+if beach_choice == "swimmimg":
+    print("Plan: Put on your sunscreen, grab. your towel, and enjoy a refreshing swim in the ocean!")
+elif beach_choice == "Sandcastle Building":
+    print("Plan: Grab a bucket and shovel, head to the shore, andbuild an epic sandcastle!")
+else:
+    print("Invalid beach activity choice. Please choose Swimming or Sandcastle Building next time.")
+if choice == "2":
+  print("\nYou chose a Mountain Holiday!")
+mountain_choice = input("What would you like to do?\nEnter 'Hiking' or 'camping':")
+if mountain_choice == "Hiking":
+    print("Plan: Lace up your sturdy boots, pack some water, and hit the mountain trails!")
+elif mountain_choice == "Camping":
+    print("Plan: Pitch your tent, segt up a campfire, and enjoy the starry night sky!")
+else:
+    print("Invalid mountain activity choice. Please choose Hiking or Camping next time.")
+if\
+  print("Invalid choice! Please restart the program and enter either 1 or 2.")':'
