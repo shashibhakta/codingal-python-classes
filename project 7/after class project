@@ -1,0 +1,34 @@
+title_message = "=== Hoemwork Checker Program ==="
+print(title_message)
+total_homework = 4
+original_count = total_homework
+completed_count = 0
+task_num = 1
+while task_num <= total_homework:
+    if task_num == 1:
+        task_name = "Math Worksheet"
+    elif task_num == 2:
+        task_name = "Science Reading"
+    elif task_num == 3:
+        task_name = "Histroy Eassay"
+    else:
+        task_name = "Coding Project"
+    print("\nChecking task {task_num}: {task_num}: {task_name}")
+    is_finished = input("Is this task finished yet. Keep working on it!")
+    if is_finished == "yes":
+        completed_count += 1
+        task_num += 1
+    remaining_task = total_homework - completed_count
+    print(f"Tasks remaining to complete: {remaining_task}")
+print("\n--- Safe Infinite Loop Example ---")
+safe_counter = 0
+while True:
+    print(f"Saftey check message {safe_counter + 1}")
+    safe_counter += 1
+    if safe_counter >= 3:
+        break
+print("\n=== Final Homework Completion Summary ===")
+print(f"Original Task Count: {original_count}")
+print(f"Completed Tasks: {completed_count}")
+print(f"Remaining Tasks: {total_homework - completed_count})
+print("Great job staying on top of your work!")
